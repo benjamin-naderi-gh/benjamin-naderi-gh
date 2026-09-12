@@ -1,7 +1,7 @@
 <h1 align="center">Benjamin Naderi</h1>
 
 <p align="center">
-  <b>Co-founder at GeoBirds</b> — supply chain location intelligence<br>
+  <b>Co-founder at GeoBirds</b> — VC-backed supply chain location intelligence<br>
   I build the data and LLM infrastructure, make sure it ships, and run the
   company around it.
 </p>
@@ -24,9 +24,6 @@ product runs on. Hands on.
 **Ship.** The engineering management half of the job. Features land on time, and
 they go out early and rough rather than late and polished, because feedback is
 worth more than a clean first release.
-
-**Fund.** Grant and R&D proposals, consortia with research and industry
-partners, and the paperwork that comes attached.
 
 **Run.** Hiring, operating cadence, OKRs, and the back office. Earlier career in
 entrepreneurship, hardware and manufacturing, on systems small and large.
@@ -73,11 +70,11 @@ df.select(plc.detect("x", "y")).item()
 # 'EPSG:28992'   (Dutch RD New)
 ```
 
-**Internal tools.** I automate the non-product parts of life, fairly
+**Internal tools.** We automate the repetitive parts of the business, fairly
 relentlessly. Bookkeeping runs as a pipeline, receipts and invoices sorted and
-pushed to the ledger rather than retyped. Past that, grant scanning, OKR
-tracking, mailbox automation. Each one starts as a command line script and ends
-as a package, so it keeps working without me.
+pushed to the ledger rather than retyped. Past that, OKR tracking and mailbox
+automation. Each one starts as a command line script and ends as a package, so
+it keeps working without anyone tending it.
 
 ## 🐍 Community
 
