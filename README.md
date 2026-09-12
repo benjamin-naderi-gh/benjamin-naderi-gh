@@ -4,6 +4,9 @@ Co-founder of **GeoBirds**. Entrepreneurship and hardware development, with a
 background in manufacturing where I have worked on systems at both small and
 large scale.
 
+On the organising committee of
+[PyData Amsterdam](https://amsterdam.pydata.org/).
+
 Father of two.
 
 ### polars-crs
