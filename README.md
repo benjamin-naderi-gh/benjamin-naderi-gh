@@ -1,10 +1,13 @@
 ## Benjamin Naderi
 
-Co-founder of **GeoBirds**. Entrepreneurship and hardware development, with a
-background in manufacturing where I have worked on systems at both small and
-large scale.
+Co-founder of **GeoBirds**, where we build supply chain location intelligence.
+We build most of our own tooling in house, from data engineering through to data
+science, and we ship continuously and work to OKRs.
 
-On the organising committee of
+Entrepreneurship and hardware development, with a background in manufacturing
+where I have worked on systems at both small and large scale.
+
+Supporting the open source community on the organising committee of
 [PyData Amsterdam](https://amsterdam.pydata.org/).
 
 Father of two.
