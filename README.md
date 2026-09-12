@@ -17,6 +17,9 @@ Father of two.
 Python and BigQuery, with extensive experience across Google Cloud Platform and
 Azure.
 
+A lot of my time goes on Python packaging, and on deploying LLM endpoints at
+scale: batch processing, sharding, and prompt versioning.
+
 ### Projects
 
 [**polars-crs**](https://github.com/benjamin-naderi-gh/polars-crs) detects which
