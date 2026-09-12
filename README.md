@@ -10,8 +10,6 @@ where I have worked on systems at both small and large scale.
 Supporting the open source community on the organising committee of
 [PyData Amsterdam](https://amsterdam.pydata.org/).
 
-Father of two.
-
 ### Work with
 
 Python and BigQuery, with extensive experience across Google Cloud Platform and
@@ -30,7 +28,9 @@ Polars expression plugin written in Rust.
 pip install polars-crs
 ```
 
-### Elsewhere
+### Away from the keyboard
+
+Father of two, and most of my time outside work goes to my family and children.
 
 Homelabs and home automation, less actively than I used to be. Reading about
 history and space exploration.
