@@ -49,6 +49,10 @@ reason.
 **LLM endpoints at scale.** Batch processing, sharding, and prompt versioning,
 open-weight models included, with some LLM feature engineering on top.
 
+**Training and fine-tuning.** Fine-tuning models to produce the domain-specific
+English text our in-house use cases need, where a general-purpose endpoint is
+the wrong tool.
+
 **Prototype to production line.** Nothing is left sitting as an experiment. We
 are moving development towards a software factory model and agentic software
 engineering.
@@ -70,13 +74,6 @@ engineering.
 
 Some hands-on experience with geospatial data and the Google Maps Platform,
 which is never far away when the product is built on location.
-
-Plenty of what I build is not the product. Bookkeeping runs as a pipeline, so
-receipts and invoices are captured, sorted and pushed through to the ledger
-rather than retyped. Ingestion pipelines pull in the sources we depend on. Past
-that there is a long tail of internal tools — grant scanning, OKR tracking,
-mailbox automation — most of which exist because a manual process annoyed me
-twice.
 
 ## 🐍 Community
 
@@ -105,6 +102,13 @@ df.select(plc.detect("x", "y")).item()
 ```
 pip install polars-crs
 ```
+
+**Internal tools.** Plenty of what I build is not the product. Bookkeeping runs
+as a pipeline, so receipts and invoices are captured, sorted and pushed through
+to the ledger rather than retyped. Ingestion pipelines pull in the sources we
+depend on. Past that there is a long tail — grant scanning, OKR tracking,
+mailbox automation — most of which exist because a manual process annoyed me
+twice.
 
 ## 🎿 Off the clock
 
