@@ -2,7 +2,8 @@
 
 <p align="center">
   <b>Co-founder at GeoBirds</b> — supply chain location intelligence<br>
-  I build the data and LLM infrastructure, and run the company around it.
+  I build the data and LLM infrastructure, make sure it ships, and run the
+  company around it.
 </p>
 
 <p align="center">
@@ -16,46 +17,34 @@
 
 ## 🛰️ What I do
 
-**Build.** I am hands on with the engineering. Data platform, pipelines, and the
-LLM infrastructure the product depends on.
+**Build.** The data platform, the pipelines, and the LLM infrastructure the
+product runs on. Hands on.
+
+**Ship.** The engineering management half of the job. Features land on time, and
+they go out early and rough rather than late and polished, because feedback is
+worth more than a clean first release.
 
 **Fund.** Grant and R&D proposals, consortia with research and industry
-partners, and everything attached to them: project plans, cooperation
-agreements, IP arrangements, financial forecasts.
+partners, and the paperwork that comes attached.
 
-**Run.** Hiring engineers, and fractional and freelance people where that suits
-the stage better. Operating cadence, OKRs and priorities, payroll, bookkeeping,
-procurement, cloud budgets, contracts. I automate the parts that repeat.
-
-Before this: entrepreneurship and hardware development, with a background in
-manufacturing, on systems at both small and large scale.
+**Run.** Hiring, operating cadence, OKRs, and the back office. Earlier career in
+entrepreneurship, hardware and manufacturing, on systems small and large.
 
 ## ⚙️ How we build
 
-**Google Cloud Platform is home.** App deployment and the data pipelines behind
-it both run there, with Azure alongside where it earns its place.
+**Pipelines that refresh surgically.** A lot of sources, every one a different
+shape, and reconciling them is most of the work. Built modular, so one slice
+refreshes without rerunning everything around it.
 
-**Pipelines that refresh surgically.** We pull from a lot of sources, each
-arriving in a different shape and form, and reconciling that is most of the
-work. So we build them modular — a single source or a single slice can be
-refreshed on its own, without tearing down and rerunning everything around it.
-That property is worth the time it costs to design in.
+**Lego bricks before buildings.** The time goes into the building blocks, and
+into Python packaging. Slower at the start, much faster afterwards.
 
-**Lego bricks before buildings.** We take our time over the building blocks,
-then assemble everything out of them. Slower at the start, considerably faster
-afterwards. A lot of my own time goes on Python packaging for exactly that
-reason.
-
-**LLM endpoints at scale.** Batch processing, sharding, and prompt versioning,
-open-weight models included, with some LLM feature engineering on top.
-
-**Training and fine-tuning.** Fine-tuning models to produce the domain-specific
-English text our in-house use cases need, where a general-purpose endpoint is
-the wrong tool.
+**LLMs in production.** Endpoints at scale — batching, sharding, prompt
+versioning, open-weight models included — plus feature engineering, and
+fine-tuning for in-house use cases where a general endpoint is the wrong tool.
 
 **Prototype to production line.** Nothing is left sitting as an experiment. We
-are moving development towards a software factory model and agentic software
-engineering.
+are moving towards a software factory and agentic software engineering.
 
 ## 🧰 Toolbox
 
@@ -72,57 +61,39 @@ engineering.
   <img src="https://img.shields.io/badge/Google%20Maps%20Platform-34A853?style=flat-square&logo=googlemaps&logoColor=white" alt="Google Maps Platform">
 </p>
 
-Some hands-on experience with geospatial data and the Google Maps Platform,
-which is never far away when the product is built on location.
-
-## 🐍 Community
-
-On the organising committee of **[PyData Amsterdam](https://amsterdam.pydata.org/)**,
-supporting the open source community. That means the annual conference and the
-monthly meetups we run through the rest of the year, hosted at companies around
-the city — programme and speakers, sponsors and partners, and the running of the
-events themselves.
-
 ## 📦 Projects
 
 **[polars-crs](https://github.com/benjamin-naderi-gh/polars-crs)** — detect which
-coordinate reference system a column of unlabelled `x`/`y` numbers is in, by
-looking at the values. A Polars expression plugin written in Rust.
+coordinate reference system unlabelled `x`/`y` columns are in, from the values.
+A Polars expression plugin in Rust.
 
 ```python
-import polars as pl
-import polars_crs as plc
-
-df = pl.DataFrame({"x": [121000.0, 92000.0], "y": [487000.0, 437000.0]})
-
 df.select(plc.detect("x", "y")).item()
 # 'EPSG:28992'   (Dutch RD New)
 ```
 
-```
-pip install polars-crs
-```
+**Internal tools.** I automate the non-product parts of life, fairly
+relentlessly. Bookkeeping runs as a pipeline, receipts and invoices sorted and
+pushed to the ledger rather than retyped. Past that, grant scanning, OKR
+tracking, mailbox automation. Each one starts as a command line script and ends
+as a package, so it keeps working without me.
 
-**Internal tools.** Plenty of what I build is not the product. Bookkeeping runs
-as a pipeline, so receipts and invoices are captured, sorted and pushed through
-to the ledger rather than retyped. Ingestion pipelines pull in the sources we
-depend on. Past that there is a long tail — grant scanning, OKR tracking,
-mailbox automation — most of which exist because a manual process annoyed me
-twice.
+## 🐍 Community
+
+On the organising committee of
+**[PyData Amsterdam](https://amsterdam.pydata.org/)** — the annual conference
+and the monthly meetups through the rest of the year. Programme and speakers,
+sponsors, and running the events themselves.
 
 ## 🎿 Off the clock
 
 Father of two, and family gets the best hours of my week. Past that it is
-friends, long tables, and getting everyone onto a mountain in winter — skiing
-together is the trip we plan the rest of the year around.
+friends, long tables, and getting everyone onto a mountain in winter. Running
+meetups comes from the same instinct: I like a room full of people who are
+pleased to see each other. Otherwise, homelabs and reading about history and
+space exploration.
 
-Running meetups comes from the same instinct. I like a room full of people who
-are pleased to see each other.
-
-Homelabs and home automation, less actively than I used to be. Reading about
-history and space exploration.
-
-I am quick at diagnosing a problem and getting it fixed, which is what makes
+Quick at diagnosing a problem and getting it fixed, which is what makes
 debugging enjoyable. Given more hours in the day, the car would be running
 properly and the microwave, thoroughly broken, would have been repaired long
 ago.
