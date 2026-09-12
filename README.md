@@ -76,13 +76,12 @@ and speakers, sponsors, and running the events themselves.
 
 ## 🎿 Off the clock
 
-Father of two, and family gets the best hours of my week. Past that it is
-friends, long tables, and getting everyone onto a mountain in winter. Running
-meetups comes from the same instinct: I like a room full of people who are
-pleased to see each other. Otherwise, homelabs and reading about history and
-space exploration.
+Father of two, and most of my time outside work goes to my family. Beyond that,
+friends, and skiing together in winter. Organising the meetups is part of that
+too.
 
-Quick at diagnosing a problem and getting it fixed, which is what makes
-debugging enjoyable. Given more hours in the day, the car would be running
-properly and the microwave, thoroughly broken, would have been repaired long
-ago.
+Homelabs and home automation, less actively than I used to be. Reading about
+history and space exploration.
+
+I diagnose and repair things quickly, cars and household appliances included.
+Much the same satisfaction as debugging.
