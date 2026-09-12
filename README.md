@@ -1,7 +1,7 @@
 <h1 align="center">Benjamin Naderi</h1>
 
 <p align="center">
-  <b>Co-founder at GeoBirds</b> — VC-backed supply chain location intelligence<br>
+  <b>Co-founder at GeoBirds</b> | VC-backed supply chain location intelligence<br>
   I build the data and LLM infrastructure, make sure it ships, and run the
   company around it.
 </p>
@@ -37,9 +37,9 @@ refreshes without rerunning everything around it.
 **Lego bricks before buildings.** The time goes into the building blocks, and
 into Python packaging. Slower at the start, much faster afterwards.
 
-**LLMs in production.** Endpoints at scale — batching, sharding, prompt
-versioning, open-weight models included — plus feature engineering, and
-fine-tuning for in-house use cases where a general endpoint is the wrong tool.
+**LLMs in production.** Endpoints at scale, with batching, sharding, prompt
+versioning and open-weight models. Plus feature engineering, and fine-tuning
+for in-house use cases where a general endpoint is the wrong tool.
 
 **Prototype to production line.** Nothing is left sitting as an experiment. We
 are moving towards a software factory and agentic software engineering.
@@ -59,29 +59,20 @@ are moving towards a software factory and agentic software engineering.
   <img src="https://img.shields.io/badge/Google%20Maps%20Platform-34A853?style=flat-square&logo=googlemaps&logoColor=white" alt="Google Maps Platform">
 </p>
 
-## 📦 Projects
+## 🔧 Automation
 
-**[polars-crs](https://github.com/benjamin-naderi-gh/polars-crs)** — detect which
-coordinate reference system unlabelled `x`/`y` columns are in, from the values.
-A Polars expression plugin in Rust.
-
-```python
-df.select(plc.detect("x", "y")).item()
-# 'EPSG:28992'   (Dutch RD New)
-```
-
-**Internal tools.** We automate the repetitive parts of the business, fairly
-relentlessly. Bookkeeping runs as a pipeline, receipts and invoices sorted and
-pushed to the ledger rather than retyped. Past that, OKR tracking and mailbox
-automation. Each one starts as a command line script and ends as a package, so
-it keeps working without anyone tending it.
+We automate the repetitive parts of the business, fairly relentlessly.
+Bookkeeping runs as a pipeline, receipts and invoices sorted and pushed to the
+ledger rather than retyped. Past that, OKR tracking and mailbox automation. Each
+one starts as a command line script and ends as a package, so it keeps working
+without anyone tending it.
 
 ## 🐍 Community
 
 On the organising committee of
-**[PyData Amsterdam](https://amsterdam.pydata.org/)** — the annual conference
-and the monthly meetups through the rest of the year. Programme and speakers,
-sponsors, and running the events themselves.
+**[PyData Amsterdam](https://amsterdam.pydata.org/)**, covering the annual
+conference and the monthly meetups through the rest of the year. Programme
+and speakers, sponsors, and running the events themselves.
 
 ## 🎿 Off the clock
 
