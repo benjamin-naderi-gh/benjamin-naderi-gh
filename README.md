@@ -1,89 +1,120 @@
-## Benjamin Naderi
+<h1 align="center">Benjamin Naderi</h1>
 
-Co-founder of **GeoBirds**, where we build supply chain location intelligence.
-We build most of our own tooling in house, from data engineering through to data
-science, and we ship continuously and work to OKRs. I work across both sides of
-that, hands on with the engineering and running the company.
+<p align="center">
+  <b>Co-founder at GeoBirds</b> — supply chain location intelligence<br>
+  I build the data and LLM infrastructure, and run the company around it.
+</p>
 
-Entrepreneurship and hardware development, with a background in manufacturing
-where I have worked on systems at both small and large scale.
+<p align="center">
+  <a href="https://www.geobirds.io"><img src="https://img.shields.io/badge/GeoBirds-0B7285?style=flat-square" alt="GeoBirds"></a>
+  <a href="https://amsterdam.pydata.org/"><img src="https://img.shields.io/badge/PyData%20Amsterdam-organising%20committee-3776AB?style=flat-square&logo=python&logoColor=white" alt="PyData Amsterdam"></a>
+  <a href="mailto:benjamin@geobirds.io"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Netherlands-4C566A?style=flat-square" alt="Netherlands">
+</p>
 
-### The founder job
+---
 
-Fundraising takes up a good share of it. Writing grant and R&D proposals,
-putting consortia together with research and industry partners, and working
-through everything that comes attached to them: project plans, cooperation
+## 🛰️ What I do
+
+**Build.** I am hands on with the engineering. Data platform, pipelines, and the
+LLM infrastructure the product depends on.
+
+**Fund.** Grant and R&D proposals, consortia with research and industry
+partners, and everything attached to them: project plans, cooperation
 agreements, IP arrangements, financial forecasts.
 
-Team building is the other half. Hiring engineers, bringing in fractional and
-freelance people where that suits the stage better, and keeping advisors and
-investors close enough to be useful.
+**Run.** Hiring engineers, and fractional and freelance people where that suits
+the stage better. Operating cadence, OKRs and priorities, payroll, bookkeeping,
+procurement, cloud budgets, contracts. I automate the parts that repeat.
 
-The rest is running the company. Operating cadence, OKRs and priorities,
-payroll, bookkeeping, procurement, cloud budgets, contracts. I automate the
-parts that repeat.
+Before this: entrepreneurship and hardware development, with a background in
+manufacturing, on systems at both small and large scale.
 
-### How we build
+## ⚙️ How we build
 
-Python and BigQuery, with Google Cloud Platform as our main cloud for both app
-deployment and the data pipelines behind it. Azure alongside it where it earns
-its place.
+**Google Cloud Platform is home.** App deployment and the data pipelines behind
+it both run there, with Azure alongside where it earns its place.
 
-The pipelines are the hard part. We pull from a lot of sources, each arriving in
-a different shape and form, and reconciling that is most of the work. So we
-build them modular: a single source or a single slice can be refreshed
-surgically, without tearing down and rerunning everything around it. That
-property is worth the time it costs to design in.
+**Pipelines that refresh surgically.** We pull from a lot of sources, each
+arriving in a different shape and form, and reconciling that is most of the
+work. So we build them modular — a single source or a single slice can be
+refreshed on its own, without tearing down and rerunning everything around it.
+That property is worth the time it costs to design in.
 
-We take our time over the building blocks. Solid Lego bricks first, then
-everything assembled out of them, which is slower at the start and considerably
-faster afterwards. A lot of my own time goes on Python packaging for exactly
-that reason.
+**Lego bricks before buildings.** We take our time over the building blocks,
+then assemble everything out of them. Slower at the start, considerably faster
+afterwards. A lot of my own time goes on Python packaging for exactly that
+reason.
 
-Scaling LLM endpoints is something we have got good at, open-weight models
-included: batch processing, sharding, and prompt versioning.
+**LLM endpoints at scale.** Batch processing, sharding, and prompt versioning,
+open-weight models included.
 
-Anything that starts as a prototype gets taken through to a production line
-rather than left sitting as an experiment. We are moving development towards a
-software factory model and agentic software engineering.
+**Prototype to production line.** Nothing is left sitting as an experiment. We
+are moving development towards a software factory model and agentic software
+engineering.
 
-### Tools I build
+## 🧰 Toolbox
 
-A fair amount of what I build is not the product. Bookkeeping runs as a
-pipeline, so receipts and invoices are captured, sorted and pushed through to
-the ledger rather than retyped. Ingestion pipelines pull in the data sources we
-depend on. Past that there is a long tail of small internal tools, for grant
-scanning, OKR tracking and mailbox automation, most of which exist because some
-manual process annoyed me twice.
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+  <img src="https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white" alt="Polars">
+  <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white" alt="BigQuery">
+  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud">
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform">
+</p>
 
-### Community
+Plenty of what I build is not the product. Bookkeeping runs as a pipeline, so
+receipts and invoices are captured, sorted and pushed through to the ledger
+rather than retyped. Ingestion pipelines pull in the sources we depend on. Past
+that there is a long tail of internal tools — grant scanning, OKR tracking,
+mailbox automation — most of which exist because a manual process annoyed me
+twice.
 
-Supporting the open source community on the organising committee of
-[PyData Amsterdam](https://amsterdam.pydata.org/). That covers the annual
-conference and the monthly meetups we run through the rest of the year, hosted
-at companies around the city. Programme and speakers, sponsors and partners,
-and the running of the events themselves.
+## 🐍 Community
 
-### Projects
+On the organising committee of **[PyData Amsterdam](https://amsterdam.pydata.org/)**,
+supporting the open source community. That means the annual conference and the
+monthly meetups we run through the rest of the year, hosted at companies around
+the city — programme and speakers, sponsors and partners, and the running of the
+events themselves.
 
-[**polars-crs**](https://github.com/benjamin-naderi-gh/polars-crs) detects which
-coordinate reference system unlabelled x/y columns are in, from the values. A
-Polars expression plugin written in Rust.
+## 📦 Projects
+
+**[polars-crs](https://github.com/benjamin-naderi-gh/polars-crs)** — detect which
+coordinate reference system a column of unlabelled `x`/`y` numbers is in, by
+looking at the values. A Polars expression plugin written in Rust.
+
+```python
+import polars as pl
+import polars_crs as plc
+
+df = pl.DataFrame({"x": [121000.0, 92000.0], "y": [487000.0, 437000.0]})
+
+df.select(plc.detect("x", "y")).item()
+# 'EPSG:28992'   (Dutch RD New)
+```
 
 ```
 pip install polars-crs
 ```
 
-### Away from the keyboard
+## 🎿 Off the clock
 
-Father of two, and most of my time outside work goes to my family and children.
-Time with family and friends is what I protect in the calendar, including
-getting out to ski together when the season allows.
+Father of two, and family gets the best hours of my week. Past that it is
+friends, long tables, and getting everyone onto a mountain in winter — skiing
+together is the trip we plan the rest of the year around.
+
+Running meetups comes from the same instinct. I like a room full of people who
+are pleased to see each other.
 
 Homelabs and home automation, less actively than I used to be. Reading about
 history and space exploration.
 
-I am quick at diagnosing a problem and getting it fixed, which is the same
-instinct that makes debugging enjoyable. Given more hours in the day, the car
-would be running properly and the microwave, which is thoroughly broken, would
-have been repaired long ago.
+I am quick at diagnosing a problem and getting it fixed, which is what makes
+debugging enjoyable. Given more hours in the day, the car would be running
+properly and the microwave, thoroughly broken, would have been repaired long
+ago.
