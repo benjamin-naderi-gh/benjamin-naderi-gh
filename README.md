@@ -31,8 +31,8 @@ entrepreneurship, hardware and manufacturing, on systems small and large.
 ## ⚙️ How we build
 
 **Pipelines that refresh surgically.** A lot of sources, every one a different
-shape, and reconciling them is most of the work. Built modular, so one slice
-refreshes without rerunning everything around it.
+shape, and reconciling them is most of the work. Orchestrated with Prefect and
+built modular, so one slice refreshes without rerunning everything around it.
 
 **Lego bricks before buildings.** The time goes into the building blocks, and
 into Python packaging. Slower at the start, much faster afterwards.
@@ -51,6 +51,7 @@ are moving towards a software factory and agentic software engineering.
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
   <img src="https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white" alt="Polars">
   <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white" alt="BigQuery">
+  <img src="https://img.shields.io/badge/Prefect-070E10?style=flat-square&logo=prefect&logoColor=white" alt="Prefect">
   <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud">
   <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
