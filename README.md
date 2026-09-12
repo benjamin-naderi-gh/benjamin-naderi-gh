@@ -47,7 +47,7 @@ afterwards. A lot of my own time goes on Python packaging for exactly that
 reason.
 
 **LLM endpoints at scale.** Batch processing, sharding, and prompt versioning,
-open-weight models included.
+open-weight models included, with some LLM feature engineering on top.
 
 **Prototype to production line.** Nothing is left sitting as an experiment. We
 are moving development towards a software factory model and agentic software
@@ -65,7 +65,11 @@ engineering.
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform">
+  <img src="https://img.shields.io/badge/Google%20Maps%20Platform-34A853?style=flat-square&logo=googlemaps&logoColor=white" alt="Google Maps Platform">
 </p>
+
+Some hands-on experience with geospatial data and the Google Maps Platform,
+which is never far away when the product is built on location.
 
 Plenty of what I build is not the product. Bookkeeping runs as a pipeline, so
 receipts and invoices are captured, sorted and pushed through to the ledger
