@@ -91,11 +91,33 @@ def demo() -> dict[dt.date, int]:
     return out
 
 
-def level(count: int, ceiling: int) -> int:
+def thresholds(counts: dict[dt.date, int]) -> list[int]:
+    """Quartile cut points over active days only.
+
+    Scaling to the busiest day lets a single outlier flatten the whole year:
+    one 2000-commit day would drop every ordinary day into the lightest bin.
+    Ranking instead of scaling keeps roughly a quarter of active days in each
+    step no matter how extreme the maximum is.
+    """
+    active = sorted(v for v in counts.values() if v > 0)
+    if not active:
+        return [1, 2, 3]
+
+    def q(p: float) -> int:
+        return active[min(len(active) - 1, round((len(active) - 1) * p))]
+
+    cuts = [q(0.25), q(0.50), q(0.75)]
+    # keep them strictly increasing, or two steps would collide
+    for i in (1, 2):
+        cuts[i] = max(cuts[i], cuts[i - 1] + 1)
+    return cuts
+
+
+def level(count: int, cuts: list[int]) -> int:
     if count <= 0:
         return -1
-    for i, frac in enumerate((0.25, 0.5, 0.75)):
-        if count <= max(1, round(ceiling * frac)):
+    for i, cut in enumerate(cuts):
+        if count <= cut:
             return i
     return 3
 
@@ -105,7 +127,7 @@ def render(counts: dict[dt.date, int], theme: dict, path: str) -> None:
     # start the grid on the Monday on or before the first day
     start = days[0] - dt.timedelta(days=days[0].weekday())
     end = days[-1] + dt.timedelta(days=6 - days[-1].weekday())
-    ceiling = max(counts.values()) or 1
+    cuts = thresholds(counts)
 
     weeks = (end - start).days // 7 + 1
     width = LEFT + weeks * (CELL + GAP) + 10
@@ -145,7 +167,7 @@ def render(counts: dict[dt.date, int], theme: dict, path: str) -> None:
             if day not in counts:
                 continue
             n = counts[day]
-            lv = level(n, ceiling)
+            lv = level(n, cuts)
             fill = theme["empty"] if lv < 0 else theme["levels"][lv]
             x = LEFT + w * (CELL + GAP)
             y = TOP + row * (CELL + GAP)
