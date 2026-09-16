@@ -87,12 +87,11 @@ history and space exploration.
 I diagnose and repair things quickly, cars and household appliances included.
 Much the same satisfaction as debugging.
 
----
+## 📊 Activity heatmap
 
 GitHub's own graph starts the week on Sunday, which splits every weekend across
-the top and bottom rows. A GitHub Action rebuilds this one each Monday, with
-weeks that start on Monday. It counts work in private repositories too, which is
-why the totals differ.
+the top and bottom rows. A GitHub Action rebuilds the heatmap below each Monday,
+with weeks that start on Monday. It counts work in private repositories too.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="heatmap-dark.svg">
