@@ -1,0 +1,38 @@
+name: Contribution heatmap
+
+on:
+  schedule:
+    - cron: '0 5 * * 1'   # 05:00 every Monday
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Render heatmap
+        env:
+          # A classic PAT with read:user. GITHUB_TOKEN may also work for public
+          # contributions; if it does, swap it in and drop the secret.
+          GH_TOKEN: ${{ secrets.HEATMAP_TOKEN }}
+        run: python scripts/contribution_heatmap.py --login "${{ github.repository_owner }}"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain heatmap-light.svg heatmap-dark.svg)" ]; then
+            git add heatmap-light.svg heatmap-dark.svg
+            git commit -m "Update contribution heatmap"
+            git push
+          else
+            echo "No change."
+          fi
