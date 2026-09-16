@@ -89,9 +89,11 @@ Much the same satisfaction as debugging.
 
 ---
 
-GitHub's own graph starts the week on Sunday, which splits every weekend across
-the top and bottom rows. A GitHub Action rebuilds this one each Monday, with
-weeks that start on Monday.
+Each square is a day, and darker means busier. GitHub draws its own version with
+weeks starting on Sunday, so every weekend gets cut in half: Saturday sits at the
+bottom of the chart and Sunday at the top. Here weeks start on Monday, so the
+weekend stays together and the pattern of a normal week is easy to see. A small
+program rebuilds this picture on its own every Monday.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="heatmap-dark.svg">
