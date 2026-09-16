@@ -68,14 +68,6 @@ ledger rather than retyped. Past that, OKR tracking and mailbox automation. Each
 one starts as a command line script and ends as a package, so it keeps working
 without anyone tending it.
 
-This heatmap is one of them. Rebuilt every Monday morning, with weeks that start
-on Monday, because GitHub only offers Sunday.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="heatmap-dark.svg">
-  <img alt="Contribution heatmap, weeks starting on Monday" src="heatmap-light.svg">
-</picture>
-
 ## 🐍 Community
 
 On the organising committee of
@@ -94,3 +86,14 @@ history and space exploration.
 
 I diagnose and repair things quickly, cars and household appliances included.
 Much the same satisfaction as debugging.
+
+---
+
+GitHub's own graph starts the week on Sunday, which splits every weekend across
+the top and bottom rows. A GitHub Action rebuilds this one each Monday, with
+weeks that start on Monday.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="heatmap-dark.svg">
+  <img alt="Contribution heatmap, weeks starting on Monday" src="heatmap-light.svg">
+</picture>
