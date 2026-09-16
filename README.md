@@ -89,9 +89,10 @@ Much the same satisfaction as debugging.
 
 ---
 
-Each square is a day, and darker means busier. On GitHub the week still starts on
-Sunday, so my own automation rebuilds this chart every week, with the week
-starting on Monday.
+GitHub's own graph starts the week on Sunday, which splits every weekend across
+the top and bottom rows. A GitHub Action rebuilds this one each Monday, with
+weeks that start on Monday. It counts work in private repositories too, which is
+why the totals differ.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="heatmap-dark.svg">
