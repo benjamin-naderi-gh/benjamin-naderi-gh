@@ -91,7 +91,7 @@ Much the same satisfaction as debugging.
 
 GitHub's own graph starts the week on Sunday, which splits every weekend across
 the top and bottom rows. A GitHub Action rebuilds the heatmap below each Monday,
-with weeks that start on Monday. It counts work in private repositories too.
+with weeks that start on Monday.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="heatmap-dark.svg">
